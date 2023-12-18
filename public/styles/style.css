@@ -1,0 +1,141 @@
+/* Aquí puedes agregar estilos según tu preferencia */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #151515;
+}
+
+header h1{
+    text-align: center;
+    color: #e8e8e8;
+    font: 6rem;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+main .form-agreg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: #0a0a0a;
+    color: #ededed;
+    width: 33rem;
+    height: 11rem;
+    margin-left: 32%;
+    border-radius: 3rem;
+}
+
+main .form-agreg input{
+    height: 4rem;
+    width: 20rem;
+    margin-top: 1.3rem;
+    border: none;
+    border-radius: 1rem;
+    text-align: center;
+    background-color: #e8e8e8;
+    font-size: 1rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+main .form-agreg button{
+    height: 3rem;
+    width: 10rem;
+    border-radius: 1.8rem;
+    border: none;
+    margin: 1.8rem;
+    color: #ffff;
+    background-color: #470db2;
+    font-size: 1.1rem;
+    font-weight: bolder;
+
+}
+
+
+main .form-agreg button:hover{
+    color: #470db2;
+    background-color: #ffff;
+    transition: 0.2s;
+    cursor: pointer;
+    border: 1.7px solid #470db2;
+}
+
+
+
+
+
+/* Estilos de las tareas */
+
+main .sect .tarjet{
+    display: flex;
+    margin: 3rem;
+    overflow-y: auto;
+}
+
+main .sect .tarjet::-webkit-scrollbar{
+    width: 0;
+}
+
+main .sect .tarjet ul{
+    display: flex;
+    
+}
+
+/* 
+main .sect .tarjet ul::-webkit-scrollbar{
+    width:  0;
+} */
+
+
+main .sect .tarjet ul li{
+    display: flex;
+    flex-direction: column;
+    background-color: #262626;
+    list-style: none;
+    color: #ffff;
+    margin: 3rem;
+    width: 28rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 10rem;
+    font-size: 1.2rem;
+    border-radius: 1.1rem;
+    box-shadow: 0px 1px 10px #161616;
+    cursor: default;
+    transition: all 400ms ease;
+    border: 3px solid #0000;
+
+}
+
+main .sect .tarjet ul li:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.559);
+    transform: translateY(-3%);
+}
+
+
+
+main .sect .tarjet ul li button{
+    margin-top: 3rem;
+    width: 10rem;
+    height: 3rem;
+    color: #ffff;
+    background-color: #50168a;
+    font-size: 1.1rem;
+    border: none;
+    font-weight: bolder;
+    border-radius: 3rem;
+
+    box-shadow: 0px 1px 10px #101010b8;
+    cursor: default;
+    transition: all 400ms ease;
+    border: 1px solid #0000;
+}
